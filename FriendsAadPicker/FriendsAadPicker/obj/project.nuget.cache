@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "tyZkyG9le8qdUtrtz/+Tsh9nwAi2XUAIfcIzGwsHyllGvjEerLALq+XzF0uZixxKi1GGHc75hR1VjVGsldzQwQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\maxip\\Documents\\Schule\\4 Klasse\\Prog\\C#\\aad-friends-picker-MaxiPineker\\FriendsAadPicker\\FriendsAadPicker\\FriendsAadPicker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maxip\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\maxip\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\maxip\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\maxip\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\maxip\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\maxip\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
