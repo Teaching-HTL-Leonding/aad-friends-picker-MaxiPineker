@@ -1,0 +1,29 @@
+<h1>Friend List</h1>
+
+<button (click) = 'login()'[hidden]='loggedIn'>Login</button>
+<button (click) = 'logout()'[hidden]='!loggedIn'>Logout</button>
+
+<div *ngIf="loggedIn">
+
+    <h2>Search for users</h2>
+
+    <input type="text" [(ngModel)]="userNameFilter">
+    <button (click)="getUsers()">Search</button>
+    <div *ngIf="users">
+        <ul>
+            <li *ngFor="let u of users">
+                   <button (click)="addFriend()">Add</button> {{u.displayName}}
+            </li>
+        </ul>
+    </div>
+
+    <h2>Get friends</h2>
+
+    <button (click)= "getFriends()">Get friends</button>
+    <div *ngIf="friends">
+        <ul>
+            <li *ngFor="let f of friends">{{ f }}</li>
+        </ul>
+    </div>
+
+</div>
