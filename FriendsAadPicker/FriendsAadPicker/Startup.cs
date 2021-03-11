@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.Identity.Web;
 using Microsoft.OpenApi.Models;
 
 namespace FriendsAadPicker
@@ -26,7 +27,7 @@ namespace FriendsAadPicker
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddMicrosoftIdentityWebApiAuthentication(Configuration);
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
